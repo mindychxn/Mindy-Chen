@@ -1,3 +1,51 @@
 body {
-    background-color: blue;
+    text-align: center;
+}
+h1{
+    font-family: 'Italiana', sans-serif;
+}
+p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.name {
+    color: #EFF5F5;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.name-sub {
+    position: relative;
+    color: #c4cedf;
+    bottom: 30px;
+    letter-spacing: 4px;
+}
+.top-container {
+    background-color: #50577A;
+    position: relative;
+    padding-top: 5%;
+    height: 675px;
+}
+.middle-container {
+    
+}
+.bottom-container {
+
+}
+
+.mountain {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.moon {
+    width: 10%;
+    position: absolute;
+    left: 350px;
+}
+.star {
+    position: absolute;
+    right:200px;
+    top: 175px;
 }
