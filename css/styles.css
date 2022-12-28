@@ -8,6 +8,12 @@ p {
     font-family: 'Montserrat';
     font-size: 20px;
 }
+.top-container {
+    background-color: #50577A;
+    position: relative;
+    padding-top: 5%;
+    height: 675px;
+}
 .name {
     color: #EFF5F5;
     font-size: 65px;
@@ -20,32 +26,20 @@ p {
     bottom: 30px;
     letter-spacing: 4px;
 }
-.top-container {
-    background-color: #50577A;
-    position: relative;
-    padding-top: 5%;
-    height: 675px;
-}
-.middle-container {
-    
-}
-.bottom-container {
-
-}
-
 .mountain {
     width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.moon {
-    width: 10%;
-    position: absolute;
-    left: 350px;
+.middle-container {
+    padding-top: 5%;
+    width: 500px;
+    margin: 0 auto;
 }
-.star {
-    position: absolute;
-    right:200px;
-    top: 175px;
+.avatar {
+    width: 40%;
+}
+.bottom-container {
+
 }
