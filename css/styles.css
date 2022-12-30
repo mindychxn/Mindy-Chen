@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: 0;
 }
 h1{
     font-family: 'Italiana', sans-serif;
@@ -12,18 +13,25 @@ p {
     background-color: #50577A;
     position: relative;
     padding-top: 5%;
-    height: 675px;
+    height: 725px;
 }
 .name {
     color: #EFF5F5;
     font-size: 65px;
     font-weight: 700;
     letter-spacing: 1px;
+    position: relative;
+    top: 13%;
 }
 .name-sub {
-    position: relative;
+    position: absolute;
     color: #c4cedf;
-    bottom: 30px;
+    top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
     letter-spacing: 4px;
 }
 .mountain {
@@ -38,7 +46,7 @@ p {
     margin: 0 auto;
 }
 .avatar {
-    width: 40%;
+    width: 50%;
 }
 .bottom-container {
 
