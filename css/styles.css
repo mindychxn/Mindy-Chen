@@ -65,9 +65,10 @@ hr {
     background: #50577A;
     padding: 15px 110px 15px 110px;
     text-decoration: none;
+    transition: background 0.3s 0.5ms;
   }
 .btn:hover {
-    background: #656d96;
+    background: #6f78a4;
     text-decoration: none;
 }
 
