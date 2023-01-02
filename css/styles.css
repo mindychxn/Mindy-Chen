@@ -1,6 +1,7 @@
 body {
     text-align: center;
     margin: 0;
+    align-items: center;
 }
 h1{
     font-family: 'Italiana', sans-serif;
@@ -12,29 +13,46 @@ p {
 }
 hr {
     width: 20%;
-    height: 2px;
-    background-color: black;
-    border-style: none;
+    height: 0.5px;
+    background-color: rgba(0, 0, 0, 0.736);
+    border-style: solid;
+    border-radius: 70%;
 }
 .top-container {
     background-color: #50577A;
     position: relative;
-    padding-top: 5%;
     height: 725px;
+}
+.top-container .moon {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background: #f3f3edce;
+    box-shadow: 0 0 25px 15px #f3f3ed85;
+    position: absolute;
+    left: 15%;
+    top: 15%
+}
+.intro {
+    position: absolute;
+    top: 38%;
+    left: 25.45%;
 }
 .name {
     color: #EFF5F5;
-    font-size: 4.06rem;
+    font-size: 7vw;
     font-weight: 700;
-    letter-spacing: 1px;
-    position: relative;
-    top: 13%;
-    line-height: 3.5em;
+    letter-spacing: 4px;
+    text-shadow: 0 0 4px#f3f3edb5;
+    margin: 0;
 }
 .name-sub {
-    color: #c4cedf;
-    top: 35%;
-    letter-spacing: 4px;
+    margin: 0;
+    font-family: montserrat;
+    font-size: 1.3rem;
+    color: #8696b3;
+    letter-spacing: 6px;
+    text-shadow: none;
 }
 .mountain {
     width: 100%;
@@ -43,10 +61,10 @@ hr {
     right: 0;
 }
 .middle-container {
-    padding-top: 5%;
+    padding-top: 3%;
     width: 500px;
     margin: 0 auto;
-    
+    padding-bottom: 3%;
 }
 .avatar {
     width: 50%; 
@@ -62,19 +80,40 @@ hr {
     font-family: Italiana;
     color: #ffffff;
     font-size: 20px;
-    background: #50577A;
+    background-color: #50577A;
     padding: 15px 110px 15px 110px;
     text-decoration: none;
-    transition: background 0.3s 0.5ms;
+    transition: background-color 0.4s 0.5ms;
+    letter-spacing: 0.1rem;
   }
 .btn:hover {
-    background: #6f78a4;
+    background-color: #68709a;
     text-decoration: none;
 }
 
 .bottom-container {
-    margin-top: 3rem;
+    font-family: 'Montserrat';
+    padding: 2%;
+    margin-top: 1.5rem;
+    background-color: #50577A;
+    padding-bottom: 1%;
+}
+.icon {
+    font-size: 2rem;
+    color: #c4cedf;
+    text-decoration: none;
+    transition: color 0.4s 0.5ms;
+    margin: 0 2.5rem;
+    padding-bottom: 0;
+}
+.icon:hover {
+    color: #ffffff;
 }
 .copyright {
-    font-size: 0.75rem;
+    font-size: 0.5vw;
+    color: #c4cedf;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+
+  
