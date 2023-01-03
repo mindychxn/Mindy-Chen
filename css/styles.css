@@ -1,18 +1,17 @@
 body {
     text-align: center;
     margin: 0;
-    align-items: center;
-    overflow-x: hidden;
 }
 h1{
     font-family: 'Italiana', sans-serif;
-    font-size: 3vw;
+    font-size: 3.7vw;
     margin-bottom: 0;
 }
 p {
     font-family: 'Montserrat';
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     padding-bottom: 2vw;
+    line-height: 1.7;
 }
 hr {
     width: 20%;
@@ -26,6 +25,7 @@ hr {
     background-color: #50577A;
     position: relative;
     height: 58vw;
+    overflow: hidden;
 }
 .top-container .moon {
     height: 9vw;
@@ -54,7 +54,7 @@ hr {
     margin: 0;
     font-family: montserrat;
     font-size: 1.5vw;
-    color: #8696b3;
+    color: #8f9bb3;
     letter-spacing: 0.3vw;
     text-shadow: none;
 }
@@ -66,7 +66,7 @@ hr {
 }
 .middle-container {
     padding-top: 2vw;
-    width: 40vw;
+    width: 45vw;
     margin: 0 auto;
     padding-bottom: 2vw;
 }
@@ -80,9 +80,9 @@ hr {
     border-radius: 12px;
     font-family: Italiana;
     color: #ffffff;
-    font-size: 1.75vw;
+    font-size: 1.7vw;
     background-color: #50577A;
-    padding: 1vw 9vw;
+    padding: 0.7vw 9vw;
     text-decoration: none;
     transition: background-color 0.4s 0.5ms;
     letter-spacing: 0.1rem;
@@ -121,12 +121,12 @@ span {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 4px;
-    height: 4px;
-    background: #fff;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: #f3f3edce;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px rgba(255,255,255,0.1),
-    0 0 0 8px rgba(255,255,255,0.1),
+    box-shadow: 0 0 2px 4px rgba(255,255,255,0.1),
+    0 0 2px 8px rgba(255,255,255,0.1),
     0 0 20px rgba(255,255,255,1);
     animation: animate 3s linear infinite;
 }
@@ -138,7 +138,7 @@ span::before {
     transform: translateY(-50%);
     width: 300px;
     height: 1px;
-    background: linear-gradient(90deg,#fff,
+    background: linear-gradient(90deg,#f3f3edce,
     transparent);
 }
 
@@ -150,7 +150,7 @@ span::before {
     }
     70%
     {
-        opacity: 1;
+        opacity: 0.5;
     }
     100% 
     {
