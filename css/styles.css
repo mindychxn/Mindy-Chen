@@ -5,27 +5,30 @@ body {
 }
 h1{
     font-family: 'Italiana', sans-serif;
+    font-size: 3vw;
+    margin-bottom: 0;
 }
 p {
     font-family: 'Montserrat';
-    font-size: 1.25rem;
-    padding-bottom: 2rem;
+    font-size: 1.5vw;
+    padding-bottom: 2vw;
 }
 hr {
     width: 20%;
-    height: 0.5px;
+    height: 0.04vw;
     background-color: rgba(0, 0, 0, 0.736);
     border-style: solid;
     border-radius: 70%;
 }
 .top-container {
+    background: radial-gradient(ellipse at bottom, #576086 0%, #161823 100%);
     background-color: #50577A;
     position: relative;
-    height: 725px;
+    height: 58vw;
 }
 .top-container .moon {
-    height: 7rem;
-    width: 7rem;
+    height: 9vw;
+    width: 9vw;
     border-radius: 50%;
     background: #f3f3edce;
     box-shadow: 0 0 25px 15px #f3f3ed85;
@@ -35,12 +38,12 @@ hr {
 }
 .intro {
     position: absolute;
-    top: 38%;
-    left: 25.45%;
+    top: 28%;
+    left: 29.5%;
 }
 .name {
     color: #EFF5F5;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 700;
     letter-spacing: 4px;
     text-shadow: 0 0 4px#f3f3edb5;
@@ -49,9 +52,9 @@ hr {
 .name-sub {
     margin: 0;
     font-family: montserrat;
-    font-size: 1.3rem;
+    font-size: 1.5vw;
     color: #8696b3;
-    letter-spacing: 6px;
+    letter-spacing: 0.3vw;
     text-shadow: none;
 }
 .mountain {
@@ -61,27 +64,24 @@ hr {
     right: 0;
 }
 .middle-container {
-    padding-top: 3%;
-    width: 500px;
+    padding-top: 2vw;
+    width: 40vw;
     margin: 0 auto;
-    padding-bottom: 3%;
+    padding-bottom: 2vw;
 }
 .avatar {
     width: 50%; 
 }
 .contact .avatar{
-    padding-top: 5%;
+    padding-top: 2vw;
 }
-
 .btn {
-    -webkit-border-radius: 16;
-    -moz-border-radius: 16;
-    border-radius: 16px;
+    border-radius: 12px;
     font-family: Italiana;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.75vw;
     background-color: #50577A;
-    padding: 15px 110px 15px 110px;
+    padding: 1vw 9vw;
     text-decoration: none;
     transition: background-color 0.4s 0.5ms;
     letter-spacing: 0.1rem;
@@ -93,13 +93,13 @@ hr {
 
 .bottom-container {
     font-family: 'Montserrat';
-    padding: 2%;
     margin-top: 1.5rem;
     background-color: #50577A;
+    padding-top: 1%;
     padding-bottom: 1%;
 }
 .icon {
-    font-size: 2rem;
+    font-size: 2vw;
     color: #c4cedf;
     text-decoration: none;
     transition: color 0.4s 0.5ms;
@@ -110,10 +110,130 @@ hr {
     color: #ffffff;
 }
 .copyright {
-    font-size: 0.5vw;
+    font-size: 0.7vw;
     color: #c4cedf;
     padding-bottom: 0;
+    margin-top: 0.3vw;
     margin-bottom: 0;
 }
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0.1),
+    0 0 0 8px rgba(255,255,255,0.1),
+    0 0 20px rgba(255,255,255,1);
+    animation: animate 3s linear infinite;
+}
 
-  
+span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg,#fff,
+    transparent);
+}
+
+@keyframes animate {
+    0% 
+    {
+        transform: rotate(315deg) translateX(0);
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100% 
+    {
+        transform: rotate(315deg) translateX(-1000px);
+        opacity: 0;
+    }
+}
+
+span:nth-child(1) {
+    top: 0;
+    right: 0;
+    left: initial;
+    animation-delay: 0;
+    animation-duration: 1s;
+}
+
+span:nth-child(2) {
+    top: 0;
+    right: 80px;
+    left: initial;
+    animation-delay: -0.4s;
+    animation-duration: 3s;
+}
+
+span:nth-child(3) {
+    top: 80px;
+    right: 0px;
+    left: initial;
+    animation-delay: -0.8s;
+    animation-duration: 2s;
+}
+
+span:nth-child(4) {
+    top: 0px;
+    right: 180px;
+    left: initial;
+    animation-delay: -1.2s;
+    animation-duration: 1.5s;
+}
+
+span:nth-child(5) {
+    top: 0px;
+    right: 400px;
+    left: initial;
+    animation-delay: 1.6s;
+    animation-duration: 2.5s;
+}
+
+span:nth-child(6) {
+    top: 0px;
+    right: 600px;
+    left: initial;
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+span:nth-child(7) {
+    top: 300px;
+    right: 0px;
+    left: initial;
+    animation-delay: 2.4s;
+    animation-duration: 3s;
+}
+
+span:nth-child(8) {
+    top: 0px;
+    right: 700px;
+    left: initial;
+    animation-delay: 2.8s;
+    animation-duration: 4s;
+}
+
+span:nth-child(9) {
+    top: 0px;
+    right: 1000px;
+    left: initial;
+    animation-delay: 3.2s;
+    animation-duration: 4s;
+}
+
+span:nth-child(10) {
+    top: 0px;
+    right: 450px;
+    left: initial;
+    animation-delay: 3.6s;
+    animation-duration: 4s;
+}
