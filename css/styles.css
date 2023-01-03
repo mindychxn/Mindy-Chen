@@ -2,6 +2,7 @@ body {
     text-align: center;
     margin: 0;
     align-items: center;
+    overflow-x: hidden;
 }
 h1{
     font-family: 'Italiana', sans-serif;
