@@ -160,80 +160,49 @@ span::before {
 
 span:nth-child(1) {
     top: 0;
-    right: 0;
-    left: initial;
+    left: 130vw;
     animation-delay: 0;
-    animation-duration: 1s;
+    animation-duration: 5s;
 }
 
 span:nth-child(2) {
-    top: 0;
-    right: 80px;
-    left: initial;
-    animation-delay: -0.4s;
+    top: -10px;
+    left: 16vw;
+    animation-delay: -2s;
     animation-duration: 3s;
 }
 
 span:nth-child(3) {
-    top: 80px;
-    right: 0px;
-    left: initial;
-    animation-delay: -0.8s;
-    animation-duration: 2s;
-}
-
-span:nth-child(4) {
-    top: 0px;
-    right: 180px;
-    left: initial;
-    animation-delay: -1.2s;
+    top: -10px;
+    left: 37vw;
+    animation-delay: -4s;
     animation-duration: 1.5s;
 }
 
+span:nth-child(4) {
+    top: -10px;
+    left: 69vw;
+    animation-delay: -2.5s;
+    animation-duration: 2.2s;
+}
+
 span:nth-child(5) {
-    top: 0px;
-    right: 400px;
-    left: initial;
-    animation-delay: 1.6s;
-    animation-duration: 2.5s;
+    top: -10px;
+    left: 92vw;
+    animation-delay: 2.3s;
+    animation-duration: 2s;
 }
 
 span:nth-child(6) {
-    top: 0px;
-    right: 600px;
-    left: initial;
-    animation-delay: 2s;
-    animation-duration: 3s;
+    top: -10px;
+    left: 159vw;
+    animation-delay: -0.5s;
+    animation-duration: 1.9s;
 }
 
 span:nth-child(7) {
-    top: 300px;
-    right: 0px;
-    left: initial;
-    animation-delay: 2.4s;
-    animation-duration: 3s;
-}
-
-span:nth-child(8) {
-    top: 0px;
-    right: 700px;
-    left: initial;
-    animation-delay: 2.8s;
-    animation-duration: 4s;
-}
-
-span:nth-child(9) {
-    top: 0px;
-    right: 1000px;
-    left: initial;
-    animation-delay: 3.2s;
-    animation-duration: 4s;
-}
-
-span:nth-child(10) {
-    top: 0px;
-    right: 450px;
-    left: initial;
-    animation-delay: 3.6s;
-    animation-duration: 4s;
+    top: -10px;
+    left: 123vw;
+    animation-delay: -2s;
+    animation-duration: 2.3s;
 }
