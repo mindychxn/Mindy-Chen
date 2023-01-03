@@ -49,17 +49,32 @@ hr {
     font-size: 6vw;
     font-weight: 700;
     letter-spacing: 4px;
-    text-shadow: 0 0 4px#f3f3edb5;
     padding: 0;
+    animation: glow 1.2s ease-in -0.2s 1;
+    animation-fill-mode: forwards;
 }
+@keyframes glow {
+    to {
+      text-shadow: 0 0 0.1vw #f3f3ed37, 0 0 0.2vw #f3f3ed48, 0 0 0.3vw #f3f3ed59, 0 0 0.4vw #f3f3ed89;
+    }
+  }
 .name-sub {
     padding: 0;
+    margin: 0;
     font-family: montserrat;
+    font-weight: 300;
     font-size: 1.5vw;
     color: #8f9bb3;
-    letter-spacing: 0.3vw;
+    letter-spacing: 0.4vw;
     text-shadow: none;
+    animation: glow-sub 1.2s ease-in 1s 1;
+    animation-fill-mode: forwards;
 }
+@keyframes glow-sub {
+    to {
+      text-shadow: 0 0 0.2vw #f3f3ed18, 0 0 0.5vw #f3f3ed29, 0 0 0.9vw #f3f3ed4a, 0 0 1.2vw #f3f3ed58, 0 0 1.7vw #f3f3ed7b;
+    }
+  }
 .mountain {
     width: 100%;
     position: absolute;
