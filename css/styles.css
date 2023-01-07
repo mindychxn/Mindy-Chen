@@ -15,6 +15,14 @@ p {
     margin-bottom: 2vw;
     line-height: 1.7;
 }
+h6 {
+    font-family: 'Montserrat';
+    font-size: 1.4vw;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
+    margin-bottom: 0vw;
+    letter-spacing: 0.2vw;
+}
 hr {
     width: 20%;
     height: 0.04vw;
@@ -63,7 +71,7 @@ hr {
     margin: 0;
     font-family: montserrat;
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     color: #8f9bb3;
     letter-spacing: 0.4vw;
     text-shadow: none;
@@ -101,9 +109,15 @@ hr {
     padding-top: 2vw;
     width: 50%;
 }
+.project-desc {
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+}
+.project-hr {
+    margin-top: 5.5vw;
+}
 .contact {
     margin: 0 auto 2vw auto;
-    /*width: 35vw;*/
 }
 .contact p{
     margin-bottom: 0.5vw;
@@ -151,7 +165,8 @@ hr {
     letter-spacing: 0.02vw;
     color: #c4cedf;
     padding-bottom: 0;
-    margin-top: 0.3vw;
+    padding-top:0;
+    margin-top: 0vw;
     margin-bottom: 0;
 }
 span {
@@ -175,8 +190,7 @@ span::before {
     transform: translateY(-50%);
     width: 300px;
     height: 1px;
-    background: linear-gradient(90deg,#f3f3edce,
-    transparent);
+    background: linear-gradient(90deg,#f3f3edce, transparent);
 }
 
 @keyframes animate {
