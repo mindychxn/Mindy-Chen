@@ -66,8 +66,8 @@ hr {
     color: #8f9bb3;
     letter-spacing: 0.4vw;
     text-shadow: none;
-    animation: glow-sub 1s ease-in 1s 1;
-    animation-fill-mode: forwards;
+    animation: glow-sub 1.5s ease-in-out infinite alternate;
+    
 }
 @keyframes glow-sub {
     to {
