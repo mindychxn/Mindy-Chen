@@ -8,7 +8,7 @@ h1{
     line-height: 0;
 }
 p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.4vw;
     padding-top: 1vw;
     line-height: 1.7;
@@ -60,7 +60,7 @@ hr {
 .name-sub {
     padding: 0;
     margin: 0;
-    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.7vw;
     color: #8f9bb3;
@@ -147,7 +147,7 @@ hr {
     background-color: rgba(255, 255, 255, 0.735);
     text-align: center;
     border-radius: 1vw;
-    font-family: Italiana;
+    font-family: 'Italiana', sans-serif;
     color:black;
     font-size: 1.7vw;
     padding : 0.5vw 3vw;
@@ -177,7 +177,7 @@ hr {
 
 .btn {
     border-radius: 1vw;
-    font-family: Italiana;
+    font-family: 'Italiana', sans-serif;
     color: white;
     font-size: 1.7vw;
     background-color: #50577A;
@@ -192,7 +192,7 @@ hr {
 }
 
 .bottom-container {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     margin-top: 2vw;
     background-color: #50577A;
     padding-top: 1%;
@@ -270,7 +270,7 @@ span:nth-child(2) {
     top: -10px;
     left: 16vw;
     animation-delay: -2s;
-    animation-duration: 3s;
+    animation-duration: 2.6s;
 }
 
 span:nth-child(3) {
